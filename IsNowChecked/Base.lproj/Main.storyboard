@@ -30,6 +30,10 @@
                                     <color key="titleColor" red="0.90891182420000005" green="0.1248050109" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="6e6-05-83b">
+                                <rect key="frame" x="87" y="587" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,4 +44,7 @@
             <point key="canvasLocation" x="132" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mario" width="220" height="337"/>
+    </resources>
 </document>
